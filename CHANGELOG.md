@@ -1,5 +1,12 @@
 # Changelog
 
+## \[0.26.0]
+
+- Added `WebViewBuilderExtAndroid` trait and with `on_webview_created` hook.
+  - [08c0156](https://github.com/tauri-apps/wry/commit/08c0156c60e016bd77f6e0f1bd16ae31dc48d4a0) feat(android): add on_webview_created hook, expose find_class ([#855](https://github.com/tauri-apps/wry/pull/855)) on 2023-01-30
+- Expose `wry::webview::prelude::find_class` function to find an Android class in the app project scope.
+  - [08c0156](https://github.com/tauri-apps/wry/commit/08c0156c60e016bd77f6e0f1bd16ae31dc48d4a0) feat(android): add on_webview_created hook, expose find_class ([#855](https://github.com/tauri-apps/wry/pull/855)) on 2023-01-30
+
 ## \[0.25.0]
 
 - **Breaking Change:** Bump webkit2gtk to 0.19. This will use webkit2gtk-4.1 as dependency from now on. Also Bump gtk version: 0.15 -> 0.16.
